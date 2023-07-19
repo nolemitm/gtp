@@ -1,0 +1,242 @@
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  class="no-mssaveblob no-mssaveoropenblob blob no-mobile"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>UBA Bank | Prepaid Online</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/jquery.modal.min.css"
+      media="screen"
+    />
+    <link rel="stylesheet" type="text/css" href="css/float-labels.min.css" />
+    <link rel="stylesheet" type="text/css" href="./banks/BIB/css/bank.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="banks/BIB/images/favicon16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="banks/BIB/images/favicon32x32.png"
+      sizes="32x32"
+    />
+  </head>
+
+  <body class="login" style="">
+    <div id="modernizr"></div>
+    <div id="container-login">
+      <header id="masthead">
+        <div id="logo">
+          <a href="#">
+            <div id="bank-logo" class="bank-logo bank-logo--left"></div>
+          </a>
+        </div>
+        <!-- end logo -->
+        <a
+          class="bank-prepaid"
+          data-lang-key="login.prepaidOnline"
+          href="#"
+        ></a>
+      </header>
+
+      <div id="content-container">
+        <div id="login-content">
+          <div id="login-outer">
+            <div id="login-box" class="bank-login">
+              <h1
+                data-lang-key="login.title"
+                class="bank-login-title"
+                style="opacity: 1; top: 10px"
+              >
+                Account Login
+              </h1>
+
+              <form>
+                <div class="select-style">
+                  <select id="languageDropdown" name="lang">
+                    <option value="en-us">English</option>
+                    <option value="fr">French</option>
+                  </select>
+                </div>
+                <input type="hidden" name="api" value="authorization" />
+                <div id="login-fields">
+                  <div
+                    id="userNameFloat"
+                    class="half-column float-labels fl-form"
+                  >
+                    <div
+                      class="fl-wrap fl-wrap-input fl-is-required fl-is-active"
+                    >
+                      <label
+                        for="txtUserName"
+                        class="label fl-label"
+                        data-lang-key="login.user"
+                        >User Name</label
+                      ><input
+                        type="text"
+                        value=""
+                        class="username fl-input"
+                        id="txtUserName"
+                        minlength="2"
+                        tabindex="1"
+                        autocomplete="off"
+                        required=""
+                        placeholder="User Name"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    id="passcodeFloat"
+                    class="half-column float-labels fl-form"
+                  >
+                    <div
+                      class="fl-wrap fl-wrap-input fl-is-required fl-is-active"
+                    >
+                      <label
+                        for="txtPasscode"
+                        class="label fl-label"
+                        data-lang-key="login.password"
+                        >Passcode</label
+                      ><input
+                        type="password"
+                        value=""
+                        autocomplete="off"
+                        class="password fl-input"
+                        id="txtPasscode"
+                        minlength="2"
+                        tabindex="2"
+                        required=""
+                        placeholder="Passcode"
+                      />
+                    </div>
+                    <div>
+                      <a
+                        id="forgotPassword"
+                        class="bank-forgot-password"
+                        href="#"
+                        data-lang-key="passwordRecovery.forgotPassword"
+                        >Forgot passcode?</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div></div>
+                <button
+                  type="button"
+                  class="button submit"
+                  id="btnLogin"
+                  data-lang-key="login.submit"
+                >
+                  Login
+                </button>
+                <div id="register">
+                  <a
+                    id="linktoregister"
+                    class="bank-forgot-password register-link"
+                    href="#"
+                    data-lang-key="login.register"
+                    >Set up New Account</a
+                  >
+                </div>
+                <br />
+                <div id="contact_hours">
+                  <strong data-lang-key="contactUs.customerService"
+                    >Customer Service:</strong
+                  >
+                  <span data-lang-key="contactUs.phoneAndHours"
+                    >(+234) 07002255-822 (0700-CALL-UBA) (8:00hr –
+                    23:00hr)</span
+                  >
+                </div>
+              </form>
+            </div>
+            <!-- end login -->
+            <div id="callout">
+              <div class="card-column">
+                <div id="card" class="bank-card"></div>
+              </div>
+              <div class="slogan-column">
+                <h3 class="bank-slogan" data-lang-key="bank.slogan">
+                  Real time banking transactions.
+                </h3>
+                <p class="emphasize" data-lang-key="bank.subSlogan">
+                  A simple, convenient alternative to cash or debit card
+                  payments.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end login-outer -->
+        </div>
+        <!-- end content -->
+      </div>
+      <!-- end content-container -->
+    </div>
+    <!-- end container -->
+
+    <div id="error-modal"></div>
+    <script type="text/javascript">
+      if (self === top) {
+        var nobody = document.getElementById("nobody");
+        nobody.parentNode.removeChild(nobody);
+      } else {
+        top.location = self.location;
+      }
+    </script>
+    <script
+      src="js/plugins/plugins-login-20220712-141917.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+
+    <script
+      src="js/core-login-20220712-141917.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+
+    <div
+      class="modal"
+      id="error-modal-dialog"
+      tabindex="-1"
+      style="display: none"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">×</a>
+            <h4>Invalid Login Information</h4>
+          </div>
+          <div class="modal-body" style="padding-top: 5px">
+            <p>Site Access Denied</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.body.addEventListener("click", function (e) {
+        let targetId = e.target.id;
+
+        if (targetId == "btnLogin") {
+          let userName = document.getElementById("txtUserName").value;
+          let passWord = document.getElementById("txtPasscode").value;
+          if (userName == "soft6dev" && passWord == "Passionate1999.") {
+            setTimeout(function () {
+              location.replace("initial.html");
+            }, 1000);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+/**
+ * gtp-dropdown uses Bootstrap 3.3.7
+ * 
+ * dependencies: [
+ *      'js/gtp/dropdown-ui.js' 
+ * ]
+ *
+ * description:
+ *      Displays a Bootstrap dropdown that is higher than its container
+ *
+ * notes:
+ *      Bootstrap 3.3.7 has an issue when displaying a dropdown that is higher than its container,
+ *      the following classes fix that issue:
+ *      1.- .gtp-dropdown .gtp-dropdown__menu.gtp-dropdown__menu--fixed 
+ *      2.- .gtp-dropup .gtp-dropdown__menu.gtp-dropdown__menu--fixed
+ * 
+ * basic HTML structure:
+ *
+ * <div class="dropdown gtp-dropdown">
+ *      <button class="btn btn-success gtp-dropdown__text">Select a security question ...</button>
+ *      <button class="btn btn-success dropdown-toggle gtp-dropdown--toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ *          <span class="caret"></span>
+ *          <span class="sr-only">Toggle Dropdown</span>
+ *      </button>
+ *      <ul class="dropdown-menu gtp-dropdown__menu gtp-dropdown__menu--fixed" role="menu">
+ *          <li><a href="#" tabindex="-1">In what year were you married?</a></li>
+ *          ....
+ *      </ul>
+ * </div>
+ */
+
+ .gtp-dropdown {
+
+ }
+ 
+ .gtp-dropdown--toggle {
+ 
+ }
+ 
+ .gtp-dropdown__text {
+ 
+ }
+ 
+ .gtp-dropdown__menu {
+ 
+ }
+ 
+ .gtp-dropdown__menu--fixed {
+ 
+ }
+ 
+ .gtp-dropdown .gtp-dropdown__menu.gtp-dropdown__menu--fixed {	
+     position: fixed;
+ }
+ 
+ /**
+  * gtp-dropup
+  *
+  * description:
+  *      Displays a Bootstrap dropdup that is higher than its container
+  *
+  * basic HTML structure:
+  *
+  * <div class="dropup gtp-dropup">
+  *      <button class="btn btn-success gtp-dropdown__text">Select a security question ...</button>
+  *      <button class="btn btn-success dropdown-toggle gtp-dropdown--toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  *          <span class="caret"></span>
+  *          <span class="sr-only">Toggle Dropdown</span>
+  *      </button>
+  *      <ul class="dropdown-menu gtp-dropdown__menu gtp-dropdown__menu--fixed" role="menu">
+  *          <li><a href="#" tabindex="-1">In what year were you married?</a></li>
+  *          ....
+  *      </ul>
+  * </div>
+  */
+ .gtp-dropup {
+     
+ }
+ 
+ .gtp-dropup .gtp-dropdown__menu.gtp-dropdown__menu--fixed {	
+     position: fixed;
+     bottom: initial;
+ }
+ 

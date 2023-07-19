@@ -1,0 +1,767 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+    unicode-range: U+460-52F,U+20B4,U+2DE0-2DFF,U+A640-A69F
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+    unicode-range: U+400-45F,U+490-491,U+4B0-4B1,U+2116
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+    unicode-range: U+370-3FF
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+    unicode-range: U+102-103,U+1EA0-1EF9,U+20AB
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+    unicode-range: U+100-24F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),local("Roboto-Regular"),url(../fonts/CWB0XYA8bzo0kSThX0UTuA.woff2) format("woff2");
+    unicode-range: U+0-FF,U+131,U+152-153,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215
+}
+
+body {
+    color: #252525;
+    font-family: "Roboto",sans-serif;
+    font-size: 100%;
+    line-height: 1
+}
+
+body.login {
+    background: #d82417 url(../images/login_bg.jpg) no-repeat 0 0;
+    background-size: cover
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+a:hover {
+    color: #f5f5f5;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
+}
+
+a.button {
+    color: #fff
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #434141;
+    border-color: #1c1b1b
+}
+
+.btn-primary:focus,.btn-primary.focus {
+    color: #fff;
+    background-color: #020202;
+    border-color: #000
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6a6767;
+    border-color: #434141
+}
+
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000
+}
+
+.btn-primary:active:hover,.btn-primary.active:hover,.open>.dropdown-toggle.btn-primary:hover,.btn-primary:active:focus,.btn-primary.active:focus,.open>.dropdown-toggle.btn-primary:focus,.btn-primary:active.focus,.btn-primary.active.focus,.open>.dropdown-toggle.btn-primary.focus {
+    color: #fff;
+    background-color: #020202;
+    border-color: #000
+}
+
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus,.btn-primary[disabled].focus,fieldset[disabled] .btn-primary.focus {
+    background-color: #434141;
+    border-color: #1c1b1b
+}
+
+.btn-primary .badge {
+    color: #434141;
+    background-color: #fff
+}
+
+h2 {
+    color: #262224
+}
+
+#login-content {
+    border-top: 6px solid #262224;
+    padding: 5% 0;
+    vertical-align: middle
+}
+
+#login-content p {
+    margin: 0 auto 10px auto
+}
+
+#logo {
+    margin-left: 10%;
+    float: right;
+    width: 197px
+}
+
+#logo-dash {
+    float: right;
+    width: 197px
+}
+
+#logout {
+    float: left;
+    text-align: right;
+    width: auto
+}
+
+nav#nav-main a {
+    display: block;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 20px 30px
+}
+
+nav#nav-mobile .dropdown.open ul {
+    display: block
+}
+
+#login-outer {
+    background-color: rgba(255,255,255,.6)
+}
+
+#login-box {
+    background-color: #fff
+}
+
+.virtual-card {
+    margin-top: 15px
+}
+
+.card-column {
+    width: 46%;
+    padding: 0 4% 0 0;
+    float: left
+}
+
+.slogan-column {
+    width: 46%;
+    padding: 0 4% 0 0;
+    float: left
+}
+
+.bank-logo {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/logo.png) no-repeat;
+    width: auto;
+    height: 80px
+}
+
+.bank-logo--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.bank-logo--left {
+    margin-left: 10%;
+    margin-right: auto
+}
+
+.bank-prepaid {
+    text-align: left;
+    color: #fff;
+    font-size: 2em;
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px
+}
+
+.bank-prepaid-dash {
+    text-align: left;
+    color: #fff;
+    font-size: 2em;
+    float: left;
+    padding-left: 20px;
+    padding-top: 35px;
+    text-decoration: none !important
+}
+
+.bank-login-title {
+    color: #000;
+    font-weight: normal
+}
+
+.bank-card {
+    display: block;
+    max-width: 100%;
+    height: 170px;
+    background: url(../images/card.png) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center
+}
+
+.bank-slogan {
+    font-family: "Roboto",sans-serif;
+    color: #262224;
+    padding: 0 0 0 0;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-shadow: none
+}
+
+.bank-email--color {
+    color: #434141
+}
+
+.bank-email--color:hover {
+    color: #848080
+}
+
+.bank-text--line {
+    line-height: 1.4em
+}
+
+.bank-text--padding {
+    padding: 3px 10px 4px 30px
+}
+
+.bank-text--line li {
+    padding: 0 0 10px 4px
+}
+
+.bank-header--well {
+    margin-top: 20px;
+    background-color: #434141;
+    color: #fff
+}
+
+.bank-forgot-password {
+    color: #d82417
+}
+
+.secure-login__subtitle {
+    font-size: 1.5em
+}
+
+.secure-login__paragraph {
+    margin-bottom: 20px;
+    font-size: 1.2em
+}
+
+.emphasize {
+    color: #d82417;
+    font-size: 1.4em;
+    font-weight: 100;
+    line-height: 1.3em
+}
+
+.last-login-date {
+    color: #262224;
+    font-size: .8em;
+    display: block;
+    margin-top: .3em
+}
+
+nav#nav-mobile a#mobileLogout {
+    color: #fff
+}
+
+.nav-pills>li>a {
+    color: #fff;
+    background-color: #9d9a9a
+}
+
+.nav-pills>li>a:hover {
+    background-color: #848080
+}
+
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #434141
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #262224;
+    border-color: #000
+}
+
+.btn-default:focus,.btn-default.focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #4e464a;
+    border-color: #262224
+}
+
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #000;
+    border-color: #000
+}
+
+.btn-default:active:hover,.btn-default.active:hover,.open>.dropdown-toggle.btn-default:hover,.btn-default:active:focus,.btn-default.active:focus,.open>.dropdown-toggle.btn-default:focus,.btn-default:active.focus,.btn-default.active.focus,.open>.dropdown-toggle.btn-default.focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000
+}
+
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    background-image: none
+}
+
+.btn-default.disabled:hover,.btn-default[disabled]:hover,fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus,.btn-default[disabled]:focus,fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus,.btn-default[disabled].focus,fieldset[disabled] .btn-default.focus {
+    background-color: #262224;
+    border-color: #000
+}
+
+.btn-default .badge {
+    color: #262224;
+    background-color: #fff
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #434141;
+    border-color: #1c1b1b
+}
+
+.btn-primary:focus,.btn-primary.focus {
+    color: #fff;
+    background-color: #020202;
+    border-color: #000
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6a6767;
+    border-color: #434141
+}
+
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000
+}
+
+.btn-primary:active:hover,.btn-primary.active:hover,.open>.dropdown-toggle.btn-primary:hover,.btn-primary:active:focus,.btn-primary.active:focus,.open>.dropdown-toggle.btn-primary:focus,.btn-primary:active.focus,.btn-primary.active.focus,.open>.dropdown-toggle.btn-primary.focus {
+    color: #fff;
+    background-color: #020202;
+    border-color: #000
+}
+
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus,.btn-primary[disabled].focus,fieldset[disabled] .btn-primary.focus {
+    background-color: #434141;
+    border-color: #1c1b1b
+}
+
+.btn-primary .badge {
+    color: #434141;
+    background-color: #fff
+}
+
+#sidebar h2 a.dropdown-submenu--color {
+    color: #fff;
+    background-color: #262224
+}
+
+#sidebar .dropdown-submenu--border-color {
+    border-color: #000
+}
+
+.dropdown-submenu {
+    position: relative
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: 5px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px 6px;
+    border-radius: 0 6px 6px 6px
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px 0 6px 6px;
+    border-left-color: #ccc;
+    margin-top: 5px
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #555
+}
+
+.dropdown-submenu.pull-left {
+    float: none
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px
+}
+
+.button {
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 8px 30px;
+    width: auto;
+    font-family: inherit
+}
+
+.submit {
+    background: #d82417;
+    border: 1px solid #d82417;
+    color: #fff
+}
+
+.logout {
+    background: #262224;
+    border: 1px solid #000;
+    color: #fff
+}
+
+#masthead {
+    background-color: #d82417;
+    padding: 20px 0 100px 0;
+    text-align: center;
+    width: 100%
+}
+
+#masthead-dash {
+    background-color: #d82417;
+    float: left;
+    padding: 1.5% 5% 1% 2%;
+    text-align: center;
+    width: 100%
+}
+
+#activity-content {
+    background: #f2f2f2
+}
+
+#activity-content h3 {
+    color: #d82417
+}
+
+#activity-content h3.popover-title {
+    margin: 0 0 0 0
+}
+
+#sidebar {
+    background: #bbb;
+    padding: 0;
+    text-align: left;
+    width: 25%
+}
+
+#sidebar h2 {
+    color: #fff;
+    margin: 0
+}
+
+#sidebar li a:hover,#sidebar li a.active {
+    color: #fff
+}
+
+#cardholder-svcs {
+    background: #b0b0b0;
+    padding: 2% 5%
+}
+
+#nav-trigger {
+    background: #f2f2f2
+}
+
+#nav-trigger span,#nav-trigger span:active {
+    background-color: #bbb;
+    background-image: url(../images/menuicon.png);
+    color: #fff
+}
+
+#nav-trigger span:hover {
+    background-color: #d82417
+}
+
+nav#nav-main {
+    background-color: #434141
+}
+
+nav#nav-main a:hover {
+    background-color: #5d5a5a;
+    color: #fff
+}
+
+nav#nav-mobile ul {
+    background-color: #bbb
+}
+
+nav#nav-mobile a {
+    display: block;
+    color: #000;
+    padding: 15px 30px
+}
+
+nav#nav-mobile a:hover {
+    background-color: #5d5a5a;
+    color: #fff
+}
+
+nav#nav-mobile li {
+    border-bottom: 1px solid #d82417;
+    display: block
+}
+
+nav#nav-mobile .sidebarmobile li {
+    border-bottom: 1px solid #262224;
+    display: block
+}
+
+nav#nav-mobile .sidebarmobile .dropdown-menu li:first-child {
+    border-top: 1px solid #d82417;
+    background-color: #434141;
+    display: block
+}
+
+nav#nav-mobile .sidebarmobile .dropdown-menu li a {
+    border-bottom: 1px solid #262224;
+    background-color: #434141;
+    display: block
+}
+
+nav#nav-mobile .sidebarmobile .dropdown-menu li a:hover {
+    border-bottom: 1px solid #262224;
+    background-color: #262224;
+    display: block
+}
+
+#cardholder-svcs h2 {
+    color: #fff
+}
+
+#cardholder-svcs a {
+    color: #fff
+}
+
+#main-svcs h2>a {
+    color: #fff
+}
+
+.ui-jqgrid .ui-jqgrid-htable th {
+    height: 3em !important;
+    border: none
+}
+
+.ui-jqgrid tr.jqgrow td {
+    height: 3.5em !important;
+    padding: 8px
+}
+
+.ui-jqgrid .ui-jqgrid-bdiv tr.ui-row-ltr>td {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+    border-left: none;
+    border-right: none
+}
+
+.ui-jqgrid tr.ui-subgrid>td {
+    border: none;
+    display: table-cell;
+    line-height: 1.25em;
+    text-align: left
+}
+
+.ui-jqgrid tr.ui-subgrid>td {
+    padding: 15px 5px 5px 5px;
+    background: #f8f5cb
+}
+
+.ui-jqgrid tr:nth-child(even) td {
+    background-color: #f7f7f7
+}
+
+.ui-jqgrid .glyphicon.glyphicon-zoom-in {
+    color: #434141
+}
+
+.ui-jqgrid .glyphicon.glyphicon-zoom-out {
+    color: #434141
+}
+
+.ui-jqgrid .active .glyphicon.glyphicon-zoom-in {
+    color: #777373
+}
+
+.ui-jqgrid .active .glyphicon.glyphicon-zoom-out {
+    color: #777373
+}
+
+@media only screen and (max-width: 1800px) {
+    .card-column {
+        width:46%;
+        padding: 0 4% 0 0;
+        float: left
+    }
+
+    .slogan-column {
+        width: 46%;
+        padding: 0 4% 0 0;
+        float: left
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    nav#nav-mobile .sidebarmobile a {
+        display:block;
+        color: #fff;
+        background: #d82417
+    }
+
+    nav#nav-mobile .sidebarmobile a:hover {
+        background-color: #5d5a5a;
+        color: #fff
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    body.login {
+        background:#d82417;
+        background-size: cover
+    }
+
+    nav#nav-mobile .sidebarmobile a {
+        display: block;
+        color: #fff;
+        background: #d82417
+    }
+
+    av#nav-mobile .sidebarmobile a:hover {
+        background-color: #5d5a5a;
+        color: #fff
+    }
+
+    .bank-logo--left {
+        margin-left: 0
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        margin-left:3%
+    }
+
+    .bank-prepaid-dash {
+        font-size: 1.3em
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #logo {
+        width:100%
+    }
+
+    .bank-prepaid {
+        font-size: 1.3em;
+        margin-left: 3%;
+        padding-left: 0
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #logo-dash {
+        width:100%
+    }
+
+    .bank-prepaid-dash {
+        font-size: 1.3em;
+        padding-top: 10px;
+        padding-left: 0
+    }
+}
+
+.change-pin-notice .checkbox {
+    padding-right: 10px
+}
+
+.change-pin-notice input[type='checkbox'] {
+    width: auto
+}
+
+.change-pin-notice .notice-label {
+    color: #f00;
+    font-size: 1.5em;
+    line-height: 1.2em
+}
+
+.change-pin-notice .notice-label.notice-bold {
+    font-weight: bold
+}
